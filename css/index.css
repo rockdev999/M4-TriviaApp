@@ -1,0 +1,63 @@
+@import url("./params.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e2d5cc;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+.descrip-logo {
+  margin: 5%;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.descrip-img {
+  height: 200px;
+  width: 200px;
+}
+.descrip-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.content-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start {
+  cursor: pointer;
+  background-color: #ff8623;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px none;
+  border-radius: 10px;
+  padding: 50px;
+  width: 100%;
+  height: 50px;
+  font-size: xx-large;
+  font-family: cursive;
+  color: white;
+}
+.start:hover {
+  border: 5px #464346 solid;
+}
