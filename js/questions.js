@@ -23,6 +23,9 @@ function recorre() {
         event.target.style.backgroundColor = "#00ff00";
       } else {
         event.target.style.backgroundColor = "red";
+        content.innerHTML += `<h2>Correct answer: ${decodeURIComponent(
+          preguntas[i].correct_answer
+        )}</h2>`;
       }
     });
   });
